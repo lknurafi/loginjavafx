@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="355.0" prefWidth="458.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.111" fx:controller="javafxapplication5.FXMLkeduaController">
+    <stylesheets>
+        <URL value="@fxmlkedua.css" />
+    </stylesheets>
+   <children>
+      <Label layoutX="13.0" layoutY="20.0" text="Heloooooo Salam Tetooot maneh" textFill="#eb1919">
+         <font>
+            <Font name="Bernard MT Condensed" size="34.0" />
+         </font>
+      </Label>
+      <Label layoutX="61.0" layoutY="63.0" text="Alhamdulillah, Sampun Berhasil Mlebet" textFill="#e120be">
+         <font>
+            <Font name="Bodoni MT" size="20.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="209.0" fitWidth="268.0" layoutX="138.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@af24d87d-ad46-435a-bb75-2f5c55df914c.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="139.0" layoutY="320.0" text="Anggep Ae Projeck SUKSES" textFill="#3ecd5a">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
